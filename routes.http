@@ -1,0 +1,27 @@
+POST http://localhost:3333/usuarios
+Content-Type: application/json
+
+{
+    "nome": "paula",
+    "idade": 30,
+    "email": "paula@email.com.br"
+}
+
+###
+
+GET http://localhost:3333/usuarios
+
+###
+
+PUT http://localhost:3333/usuarios/
+Content-Type: application/json
+
+{
+    "title": "Video 02",
+    "description": "Esse não é o primeiro video",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:3333/usuarios/
